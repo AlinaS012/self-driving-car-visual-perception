@@ -1,5 +1,5 @@
 '''
-Script to test traffic light localization and detection
+Script to test traffic light localization and detection using tensorflow Object detection API with COCO dataset
 '''
 
 import numpy as np
@@ -25,7 +25,7 @@ from object_detection.utils import visualization_utils as vis_util
 class TLClassifier(object):
     def __init__(self):
 
-        self.signal_classes = ['Red', 'Green', 'Green1']
+        self.signal_classes = ['Red', 'Green', 'Green1'] # Classify into red/yellow/green, or red/green for directness
        
         self.signal_status = None
         
