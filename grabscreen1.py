@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import alina as a
+import traffic_light as a
 
 
 # cwd = os.path.dirname(os.path.realpath(__file__))
