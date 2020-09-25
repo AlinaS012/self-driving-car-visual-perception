@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import time
 from serial import Serial
-from draw_lanes import draw_lanes
+from lane_lines import draw_lanes
 from grabscreen1 import grab_screen
 from text_recognition2 import traffic_sign
 from traffic_light import get_classification
